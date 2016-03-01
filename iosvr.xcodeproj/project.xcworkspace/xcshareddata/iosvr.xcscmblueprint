@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8287EDD055C589E5D55AD94BBEC520EA68911674",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8287EDD055C589E5D55AD94BBEC520EA68911674" : 0,
+    "F8D4E22E4DF13D92844A2A1300DA20BDD88EBDFD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8C276957-7C0D-4AA4-AF65-090BCBF335C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8287EDD055C589E5D55AD94BBEC520EA68911674" : "iosvr\/",
+    "F8D4E22E4DF13D92844A2A1300DA20BDD88EBDFD" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iosvr",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iosvr.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AndreaMelle\/iosvr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8287EDD055C589E5D55AD94BBEC520EA68911674"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gnestor\/ReactNativeVideo360.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8D4E22E4DF13D92844A2A1300DA20BDD88EBDFD"
+    }
+  ]
+}

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93249D4D1C86209800A0F067 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93249D4C1C86208000A0F067 /* demo.mp4 */; };
 		B11F11A61AD6B0BB006F4F00 /* CardboardUnity.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C8428D1ACD1C01001DF311 /* CardboardUnity.mm */; };
 		B11F11A71AD6B0BB006F4F00 /* CardboardUnityPluginInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1FF63A41ACF03D40075E89E /* CardboardUnityPluginInterface.cpp */; };
-		B12CC7ED1B33644A003863B9 /* balloons2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B12CC7EC1B33644A003863B9 /* balloons2.mp4 */; };
 		B145F5681B2F62D000B1E983 /* libhfgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E85F311AE7FE07007D370D /* libhfgl.a */; };
 		B145F5691B2F62D000B1E983 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FF63A21ACED6F10075E89E /* UIKit.framework */; };
 		B145F56A1B2F62D000B1E983 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842BE1ACD1CBA001DF311 /* GLKit.framework */; };
@@ -185,7 +185,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B12CC7EC1B33644A003863B9 /* balloons2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = balloons2.mp4; sourceTree = "<group>"; };
+		93249D4C1C86208000A0F067 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.mp4; path = ../../demo.mp4; sourceTree = "<group>"; };
 		B145F5791B2F62D000B1E983 /* scenekitvrsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scenekitvrsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B145F57C1B2F637400B1E983 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SceneKitVrSample/AppDelegate.h; sourceTree = "<group>"; };
 		B145F57D1B2F637400B1E983 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SceneKitVrSample/AppDelegate.m; sourceTree = "<group>"; };
@@ -326,7 +326,6 @@
 		B1941FBE1B30534E00E05DC3 /* panovideovr-sample */ = {
 			isa = PBXGroup;
 			children = (
-				B12CC7EC1B33644A003863B9 /* balloons2.mp4 */,
 				B1941FD11B309E6F00E05DC3 /* Shader.vsh */,
 				B1941FD21B309E6F00E05DC3 /* Shader.fsh */,
 				B1941FC31B30548D00E05DC3 /* AppDelegate.h */,
@@ -338,6 +337,7 @@
 				B1941FBF1B30540C00E05DC3 /* PanoVideoVrImages.xcassets */,
 				B1941FCE1B30551B00E05DC3 /* PanoPlayerRender.h */,
 				B1941FCF1B30551B00E05DC3 /* PanoPlayerRender.mm */,
+				93249D4C1C86208000A0F067 /* demo.mp4 */,
 			);
 			name = "panovideovr-sample";
 			sourceTree = "<group>";
@@ -636,9 +636,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93249D4D1C86209800A0F067 /* demo.mp4 in Resources */,
 				B1941FD41B309E6F00E05DC3 /* Shader.fsh in Resources */,
 				B1941FD31B309E6F00E05DC3 /* Shader.vsh in Resources */,
-				B12CC7ED1B33644A003863B9 /* balloons2.mp4 in Resources */,
 				B1941FC01B30540C00E05DC3 /* PanoVideoVrImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

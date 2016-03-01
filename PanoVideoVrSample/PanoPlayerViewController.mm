@@ -67,7 +67,7 @@ static void *AVPlayerItemStatusContext = &AVPlayerItemStatusContext;
     
     [[_player currentItem] removeOutput:self.videoOutput];
     
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"balloons2" withExtension:@"mp4"];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"demo" withExtension:@"mp4"];
     
     AVPlayerItem *item = [AVPlayerItem playerItemWithURL:url];
     AVAsset *asset = [item asset];
@@ -157,7 +157,7 @@ static void *AVPlayerItemStatusContext = &AVPlayerItemStatusContext;
 - (void)syncTimeLabel
 {
     double seconds = CMTimeGetSeconds([_player currentTime]);
-    if (!isfinite(seconds)) {
+    if (!std::isfinite(seconds)) {
         seconds = 0;
     }
     
