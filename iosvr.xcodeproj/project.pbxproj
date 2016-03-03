@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		93249D4D1C86209800A0F067 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93249D4C1C86208000A0F067 /* demo.mp4 */; };
+		936A27011C88FA2400FBF894 /* libhfgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E85F311AE7FE07007D370D /* libhfgl.a */; };
 		B11F11A61AD6B0BB006F4F00 /* CardboardUnity.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C8428D1ACD1C01001DF311 /* CardboardUnity.mm */; };
 		B11F11A71AD6B0BB006F4F00 /* CardboardUnityPluginInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1FF63A41ACF03D40075E89E /* CardboardUnityPluginInterface.cpp */; };
 		B145F5681B2F62D000B1E983 /* libhfgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E85F311AE7FE07007D370D /* libhfgl.a */; };
@@ -299,6 +300,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936A27011C88FA2400FBF894 /* libhfgl.a in Frameworks */,
 				B1C842C31ACD1CC3001DF311 /* CoreMotion.framework in Frameworks */,
 				B1C842C11ACD1CBE001DF311 /* OpenGLES.framework in Frameworks */,
 				B1C842BF1ACD1CBA001DF311 /* GLKit.framework in Frameworks */,
